@@ -88,10 +88,10 @@ define('EC_SEND_PHONE','0912345678'); //店到店寄件電話
 */
 
 /* MySQL設定 */
-define('DB_NAME','goodwayt_Enbi_shop');
-define('DB_USER','enbi_shop');
-define('DB_PASSWD','9Crt>N+b!+6Q5b]');
-define('DB_HOST','139.162.5.79');
+define('DB_NAME','enbi-shop');
+define('DB_USER','enbi-shop');
+define('DB_PASSWD','TRQToj3Shla8GOzCeyNL');
+define('DB_HOST','127.0.0.1');
 define('DB_TYPE','mysql');
 
 try {

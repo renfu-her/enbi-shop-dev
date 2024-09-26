@@ -438,7 +438,7 @@ set_time_limit(120);
 
 $_SESSION["cart"] = ''; //刪除購物車
 
-$send_email_array = explode(",", $send_email); //根据逗号分割存入数组
+$send_email_array = explode(separator: ",", $send_email); //根据逗号分割存入数组
 foreach ($send_email_array as $recipient) {
 	$recipient = trim($recipient); // 移除可能的空格
 	if (filter_var($recipient, FILTER_VALIDATE_EMAIL)) {
@@ -447,7 +447,7 @@ foreach ($send_email_array as $recipient) {
 	}
 }
 
-$emails[] = 'renfu.her@gmail.com';
+// $emails[] = 'renfu.her@gmail.com';
 
 $postData = [
 	'from_email' => 'bloomami2022@gmail.com',
